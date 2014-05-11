@@ -7,18 +7,18 @@ waterpipe.js is a jQuery plugin for smoky backgrounds developed by [dragdropsite
 ##Examples
 Here are some examples generated using waterpipe.js plugin. 
 
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-1.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-2.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-3.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-4.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-5.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-6.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-7.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-8.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-9.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-10.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-11.jpg)
-![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/samples-12.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-1.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-2.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-3.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-4.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-5.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-6.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-7.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-8.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-9.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-10.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-11.jpg)
+![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-12.jpg)
 
 ##Usage
 
