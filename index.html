@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<script src="lib/modernizr-2.7.2.js"></script>
+
+<title>Smoky Backgrounds Generator - waterpipe.js</title>
+<link rel="stylesheet" href="css/colpick.css">
+<link rel="stylesheet" href="css/jquery.nouislider.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div id="wavybg-wrapper" style="width: 100%; height: 100%;"> 
+    <canvas>Your browser does not support HTML5 canvas.</canvas>
+</div>
+
+<div class="sidebar-wrapper">
+	<div class="intro">
+		<h1>waterpipe.js</h1>
+		<div class="created-by">by <a href="http://www.dragdropsite.com" target="_blank">dragdropsite.com</a></div>
+		<div class="share">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="dragdropsite" data-count="none">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<iframe src="http://ghbtns.com/github-btn.html?user=dragdropsite&repo=waterpipe.js&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<div class="generator-form-wrap">
+		<form class="generator-params">
+			<h2>Smoke style</h2>
+			<div class="input-group">
+				<label for="gradientStart">Gradient start:</label>
+				<input type="text" id="gradientStart" name="gradientStart" value="#000000" class="color-picker gradient-start"></input>
+			</div>
+			<div class="input-group">
+				<label for="gradientEnd">Gradient end:</label>
+				<input type="text" id="gradientEnd" name="gradientEnd" class="color-picker gradient-end" value="#222222"></input>
+			</div>
+			<div class="input-group">
+				<label for="smokeOpacity">Opacity: <span class="value">10%</span></label>
+				<div class="smokeOpacity-slider"></div>
+				<input type="hidden" id="smokeOpacity" name="smokeOpacity" value="10" class="slider"></input>
+			</div>
+			<div class="input-group">
+				<label for="radiusSize">Smoke size: <span class="value">100%</span></label>
+				<div class="radiusSize-slider"></div>
+				<input type="hidden" id="radiusSize" name="radiusSize" value="100" class=""></input>
+			</div>
+			<div class="input-group">
+				<label for="lineWidth">Line width: <span class="value">2px</span></label>
+				<div class="lineWidth-slider"></div>
+				<input type="hidden" id="lineWidth" name="lineWidth" value="2" class=""></input>
+			</div>
+			<div class="input-group">
+				<label for="numCircles">Smokes #: <span class="value">1</span></label>
+				<div class="numCircles-slider"></div>
+				<input type="hidden" id="numCircles" name="numCircles" value="1" class=""></input>
+			</div>
+			<h2>Background style</h2>
+			<div class="input-group">
+				<label for="bgColorOuter">Outer color:</label>
+				<input type="text" id="bgColorOuter" name="bgColorOuter" class="color-picker color-outer" value="#666666"></input>
+			</div>
+			<div class="input-group">
+				<label for="bgColorInner">Inner color:</label>
+				<input type="text" id="bgColorInner" name="bgColorInner" class="color-picker color-inner" value="#ffffff"></input>
+			</div>
+			<h2>Download size</h2>
+			<div class="input-group">
+				<label for="downloadWidth">Width (px):</label>
+				<input type="text" id="downloadWidth" name="downloadWidth"></input>
+			</div>
+			<div class="input-group">
+				<label for="downloadHeight">Height (px):</label>
+				<input type="text" id="downloadHeight" name="downloadHeight"></input>
+			</div>
+			<h2 id="samples-section">Samples (click to generate)</h2>
+			<div class="input-group samples">
+				<a href="#" class="sample-smoke" data-id="0"><img src="img/samples/small/sample-1.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="1"><img src="img/samples/small/sample-2.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="2"><img src="img/samples/small/sample-3.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="3"><img src="img/samples/small/sample-4.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="4"><img src="img/samples/small/sample-5.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="5"><img src="img/samples/small/sample-6.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="6"><img src="img/samples/small/sample-7.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="7"><img src="img/samples/small/sample-8.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="8"><img src="img/samples/small/sample-9.jpg" alt=""</a>
+				<a href="#" class="sample-smoke" data-id="9"><img src="img/samples/small/sample-10.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="10"><img src="img/samples/small/sample-11.jpg" alt=""></a>
+				<a href="#" class="sample-smoke" data-id="11"><img src="img/samples/small/sample-12.jpg" alt=""></a>
+			</div>
+		</form>
+	</div>
+	<div style="clear:both"></div>
+	<div class="buttons-wrap">
+		<div class="btn btn-grey btn-samples">Samples</div>
+		<div class="btn btn-grey btn-generate">Generate</div>
+		<div class="btn btn-grey btn-download">Download</div>
+		<div class="credits-to">Credits: <a href="http://rectangleworld.com/blog/" target="_blank">rectangleworld.com</a></div>
+	</div>
+</div>
+
+<script src="lib/jquery-1.11.0.min.js"></script>
+<script src="lib/colpick.js"></script>
+<script src="lib/jquery.nouislider.min.js"></script>
+<script src="lib/jquery.nicescroll.min.js"></script>
+<script src="lib/builder_scripts.js"></script>
+
+<script src="waterpipe.js"></script>
+
+</body>
+</html>
