@@ -4,7 +4,7 @@ waterpipe.js is a jQuery plugin for smoky backgrounds developed by [dragdropsite
 
 ![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/screenshot.jpg)
 
-##Examples
+## Examples
 Here are some examples generated using waterpipe.js plugin. 
 
 ![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-1.jpg)
@@ -20,7 +20,7 @@ Here are some examples generated using waterpipe.js plugin.
 ![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-11.jpg)
 ![alt tag](https://raw.github.com/dragdropsite/waterpipe.js/master/img/samples/sample-12.jpg)
 
-##Usage
+## Usage
 
 **1. Include jQuery and waterpipe.js**
 
@@ -52,7 +52,7 @@ Here are some examples generated using waterpipe.js plugin.
         bgColorOuter: "#666666"
     });
 
-##Options
+## Options
 
 | Option        | Type          | Default   | Description                                                                                                                                                                    |
 |---------------|---------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Here are some examples generated using waterpipe.js plugin.
 | bgColorInner  | string        | '#ffffff' | Background outer color in hex format                                                                                                                                           |
 | bgColorOuter  | string        | '#666666' | Background inner color in hex format                                                                                                                                           |
 
-##Methods
+## Methods
 
 The following code could be used to call a method: `smokyBG.data('waterpipe').generate();`Please make sure variable smokyBG exists
 
@@ -82,14 +82,14 @@ The following code could be used to call a method: `smokyBG.data('waterpipe').ge
 | download  | width: int, | Download size in pixels                                                                         |
 |           | height: int |                                                                                                 |
 
-##Demo
+## Demo
 
 Please check the demo to generate and download your own smoky backgrounds: [http://dragdropsite.github.io/waterpipe.js](http://dragdropsite.github.io/waterpipe.js)
 
-##Credits
+## Credits
 
 [rectangleworld.com](http://rectangleworld.com/blog/) - big part of code has been taken from the examples provided on this blog
 
-##License
+## License
 
 Licensed under MIT license
